@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* Reset some default styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.Lo {
+   
+    color:black;
+    border-radius: 8px;
+    border-color: orange;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f39c12;
+}
+
+
+.hero {
+    background-image: url('audi-q3-AQ31.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    padding: 50px 0 50px 0;
+    
+}
+
+/* first Section*/
+
+.hero-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: rgb(4, 26, 91);
+}
+
+.hero p {
+    height: 500px;
+    width: 230px;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: rgb(71, 21, 180);
+}
+
+
+/* second section */
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e67e22;
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #080808;
+    color: #f5f5f5;
+}
+
+.featured h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.featured-card {
+    background-color: #161717;
+    color: #e6feff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(91, 91, 91, 0.5);
+}
+.featured-card:hover{
+    cursor: pointer;
+    background-color: #333;
+}
+
+.featured-card img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#img1{
+    object-fit: none;
+}
+
+.featured-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.featured-card-link:link,
+.featured-card-link:visited{
+    text-decoration: none;
+    color:#e6feff ;
+}
+
+.featured-card-link:hover,
+.featured-card-link:active{
+    text-decoration: underline;
+    color:#e6feff ;
+}
+
+.featured-card p {
+    font-size: 20px;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.feature-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
